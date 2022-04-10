@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*{
+  background-color: #edf2f5;;
+}
+
+.wrapper {
+  display: grid;
+  width: 600px;
+  height: auto;
+  padding: 2rem;
+  margin: 0 auto; 
+  background-color: #edf2f5;
+}
+
+.wrapper h1{
+  margin: 0 auto;
+}
+
+.wrapper img{
+  width: 75px;
+  height: 15px;
+}
+
+.Add{
+  padding-top: 1rem;
+  margin: 0 auto;
+}
+
+.Post{
+  padding: 1rem;
+  margin: 0 auto;
+  background-color: transparent;
+}
+
+.TodoItem{
+  font-size: 12px;
+  padding: 0.5rem;
+  margin: 1rem;
+  width: 400px;
+  height: 20px;
+  text-align: start;
+  background: #EDF2F5;
+  box-shadow: -2.5px -2.5px 5px #FAFBFF, 2.5px 2.5px 5px rgba(22, 27, 29, 0.23);
+  color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.TodoItem button{
+  position: fixed;
+  margin-left: 23.8rem;
+  margin-top: -1.2rem;
+  border: none;
+  color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;  
+}
+
+.TodoItem input{ 
+ margin-right: 0.4rem;
+}
+
+.Additem{
+  margin: 0 auto;
+}
+
+.Additem button{    
+    margin-left: 10px;
+    border: none;  
+    font-size: 10px;
+    width: 38px;
+    height: 34px;
+    color: rgba(0, 0, 0, 0.5);
+    background: #EDF2F5;
+    box-shadow: -2.5px -2.5px 5px #FAFBFF, 2.5px 2.5px 5px rgba(22, 27, 29, 0.23);
+    border-radius: 10px;
+  }
+
+  .Additem button:active{ 
+    color: rgba(0, 0, 0, 0.35);
+    transition: color 0s 
+  }
+
+.Additem input{
+  padding: 1rem;
+  width: 335px;
+  height: 5px;
+  font-size: 10px;
+  border: none;
+  color: rgba(0, 0, 0, 0.5);
+  background: #EDF2F5;
+  box-shadow: inset 2.5px 2.5px 5px rgba(22, 27, 29, 0.23), inset -2.5px -2.5px 5px #FAFBFF;
+  border-radius: 10px;
+}
+
+
+.done{
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.p{
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 10px;
+}
+
